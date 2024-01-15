@@ -1,0 +1,214 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+/* SQI STYLING */
+.navContainer{
+  width: 100%;
+  background-color: #ffffff;
+  border-bottom: 1px solid gray ;
+  box-shadow: 1px 0 4px;
+  position: fixed;
+}
+.innerContainer{
+  padding: 0 8em;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+li{
+  text-decoration: none;
+  list-style-type: none;
+  color: #2d419b;
+  font-weight: 700;
+  font-size: smaller;
+}
+.landingPage{
+background-color:rgb(255,253,245);
+/* padding-top: 3em; */
+padding-top: 6em;
+
+}
+.hero-heading{
+  font-weight: 700;
+  font-size: 4em;
+  color: rgb(0,14,66);
+}
+.hero-left{
+  padding-top: 3em;
+  margin-left: 8em;
+}
+.landingPage .row .hero-left p{
+  font-weight: 500;
+  color: rgb(71,71,90);
+}
+.home-btn{
+  background-color: rgb(0,32,138);
+  color: #ffffff;
+  font-weight: 500;
+  padding: 14px 28px;
+  border: none;
+  border-radius: 9px;
+}
+.second-div{
+  margin-top: 4em;
+}
+.second-text{
+  border-top: 2px solid;
+  border-bottom: 2px solid;
+  padding: 3em;
+  /* margin-left: 2em; */
+}
+.third-div .row{
+  margin: 5em 3em;
+  /* gap: 1.5em; */
+}
+.third-div .row h1{
+  color: rgb(5,7,84);
+  font-weight: 700;
+  margin-bottom: 1em;
+}
+.thirdDiv-img{
+  position: relative;
+  width: 20em;
+  z-index: -1;
+  filter: grayscale(100%);
+}
+.third-div .row div h4{
+  font-weight: 900;
+  font-size: 1.3em;
+  color: rgb(0,14,84);
+}
+.third-div .row div button{
+  background-color: transparent;
+  padding: 1em 0;
+  margin-top: 1em;
+  border: none;
+  border-bottom: 2px solid;
+}
+.program-detail h6{
+  color: black;
+  font-weight: 700;
+}
+.program-detail{
+  margin-top: 4em;
+  color: gray;
+}
+hr{
+  position: relative;
+  z-index: -1;
+ border-color: rgb(136,195,202) !important;
+ border-width: 1.8px !important;
+}
+.software-container{
+  gap: 3em;
+}
+.software-div{
+  /* border: 1px solid; */
+  border-radius: 1.5em;
+  width: 42%;
+  min-height: 40vh;
+  margin-top: 3em;
+  padding: 4em;
+  background-color: rgb(213,234,243);
+  box-shadow: 1px 4px 4em 0 rgb(212,235,217);
+
+}
+.dataScience-div{
+  margin-top: -5em !important;
+  border: 1px solid;
+  border-radius: 1.5em;
+  width: 42%;
+  height: 100vh;
+  margin-top: 3em;
+  padding: 4em;
+  background-color: rgb(238,239,189);
+  box-shadow: 1px 4px 4em 0 rgb(255,223,217);
+  
+}
+.digital-literacy{ 
+  border-radius: 1.5em;
+  width: 42%;
+  min-height: 40vh;
+  margin-top: 3em;
+  padding: 4em;
+  background-color: rgb(224,213,192);
+  box-shadow: 1px 10px 4em 0 rgb(212,235,217); 
+}
+.product-design{
+  margin-top: -8em !important;
+  border: 1px solid;
+  border-radius: 1.5em;
+  width: 42%;
+  height: 140vh;
+  margin-top: 3em;
+  padding: 4em;
+  background-color: rgb(223,213,232);
+  box-shadow: 1px 10px 4em 0 rgb(255,223,217);
+}
+.fifth-container{
+  width: 70%;
+  margin: auto;
+}
+.fifth-header{
+  width: 55%;
+  margin-left: 4em;
+}
+.container .images{
+  /* justify-content: space-around; */
+  padding: 4em;
+  padding-left: 9em;
+  gap: 4em;
+}
+.container .images img{
+  width: 10em;
+}
+.vid-wrapper{
+  background-image: linear-gradient(to right, #1e15c9, #010619), url("../src/SQI-image/pictures10.jpg");
+  background-size: cover;
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+
+.vid-container{
+  padding: 8em;
+  justify-content: space-between;
+}
+video{
+  width: 20em;
+  border-radius: 2em;
+}
+.vid-text{
+  width: 50%;
+}
+.vid-text h1{
+  font-size: 3.5em;
+  font-weight: 800;
+}
+.vid-text p{
+  font-size: larger;
+}
+.vid-text button{
+  /* margin-top: 2em; */
+  padding: 1em;
+  background-color: #00208a;
+  color: #ffffff;
+  border-radius: 2em;
+  border: none;
+}
